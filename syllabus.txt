@@ -1,0 +1,157 @@
+Course Name: Statistical Methods and Basic Machine Learning Models
+
+Day 1
+
+Track: Statistics
+Sub Track: Probability Concepts
+Topics: Probability and Sampling Foundations
+Subtopics: Basic probability, joint and conditional probability, real-world applications
+
+Session 1: Basic probability concepts & terminology
+
+Session 2: Joint probability with examples
+
+Session 3: Conditional probability & Bayes theorem
+
+Session 4: Real-world probability problem-solving
+
+Day 2
+
+Track: Statistics
+Sub Track: Sampling & Normal Distribution
+Topics: Probability and Sampling Foundations
+Subtopics: Sampling techniques, sampling distribution, normal distribution, CLT
+
+Session 1: Sampling techniques (random, stratified)
+
+Session 2: Sampling distribution & standard error
+
+Session 3: Properties of normal distribution
+
+Session 4: Central Limit Theorem with dataset example
+
+Day 3
+
+Track: Statistics
+Sub Track: Parametric Testing
+Topics: Statistical Inference and Testing
+Subtopics: Hypothesis testing basics, Z-test, T-test, p-value, confidence intervals
+
+Session 1: Formulating hypotheses & understanding p-value
+
+Session 2: One-sample & two-sample Z-test
+
+Session 3: One-sample & two-sample T-test
+
+Session 4: Confidence intervals with interpretation
+
+Day 4
+
+Track: Statistics
+Sub Track: Nonparametric Testing
+Topics: Statistical Inference and Testing
+Subtopics: Chi-Square goodness-of-fit, test for independence
+
+Session 1: Chi-Square goodness-of-fit concept
+
+Session 2: Hands-on: Goodness-of-fit example
+
+Session 3: Chi-Square independence test concept
+
+Session 4: Hands-on: Independence test with dataset
+
+Day 5
+
+Track: ML
+Sub Track: Data Preprocessing
+Topics: Data Preparation and Regression Models
+Subtopics: Handling missing values, encoding categorical variables, normalization, scaling
+
+Session 1: Handling missing values & outlier detection
+
+Session 2: Encoding categorical variables
+
+Session 3: Normalization & standardization
+
+Session 4: Train-test split & data validation
+
+Day 6
+
+Track: ML
+Sub Track: Regression
+Topics: Regression Models
+Subtopics: Simple Linear Regression – basics, correlation vs causation
+
+Session 1: Line of best fit concept
+
+Session 2: Correlation vs causation analysis
+
+Session 3: Model building in Python
+
+Session 4: Residual analysis & performance metrics
+
+Day 7
+
+Track: ML
+Sub Track: Regression
+Topics: Regression Models
+Subtopics: Multiple Linear Regression – multicollinearity, variable selection
+
+Session 1: Understanding multicollinearity
+
+Session 2: Variable selection methods
+
+Session 3: Model building with multiple predictors
+
+Session 4: Interpreting coefficients & adjusted R²
+
+Day 8
+
+Track: ML
+Sub Track: Classification
+Topics: Classification Models
+Subtopics: Logistic Regression – binary classification, threshold tuning, ROC-AUC
+
+Session 1: Binary classification concept & sigmoid function
+
+Session 2: Threshold tuning & decision boundaries
+
+Session 3: Confusion matrix & ROC curve
+
+Session 4: Hands-on: Logistic regression in Python
+
+Day 9
+
+Track: ML
+Sub Track: Classification & Clustering
+Topics: Classification & Clustering Models
+Subtopics: KNN & K-Means Clustering
+
+Session 1: KNN: Distance metrics & k selection
+
+Session 2: KNN: Model training & prediction
+
+Session 3: K-Means: Centroid initialization & elbow method
+
+Session 4: K-Means: Cluster interpretation & visualization
+
+Day 10
+
+Track: ML
+Sub Track: Model Evaluation & Project
+Topics: Model Evaluation + Final Project
+Subtopics: Accuracy, precision, recall, F1-score, cross-validation; project integration
+
+Session 1: Accuracy, precision, recall concepts
+
+Session 2: F1-score & ROC interpretation
+
+Session 3: Cross-validation techniques
+
+Session 4: Project integration, final review & submission
+
+Revision & Examination
+
+Day 11: Revision and portal-based assessment – II
+
+Day 12: Final end-semester examination
