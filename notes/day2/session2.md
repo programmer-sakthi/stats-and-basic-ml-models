@@ -1,49 +1,189 @@
-# Sampling Distributions
+# 📘 Sampling Distributions – Complete Notes
 
-[Sampling Distributions - GFG reference material](https://www.geeksforgeeks.org/maths/sampling-distribution/)
+[Video Reference](https://www.youtube.com/watch?v=7S7j75d3GM4)
 
-# Standard Error in Sampling Distributions
+---
 
-The **standard error (SE)** in a sampling distribution refers to the standard deviation of the sampling distribution of a sample statistic, most commonly the sample mean. It quantifies the variability or spread of sample means around the population mean.
+# 1. What is a Sampling Distribution?
 
-In simple terms, it tells you how much the sample mean is likely to vary from the true population mean due to random sampling. The smaller the standard error, the more consistent the sample means will be, and the more reliable your estimates of the population parameter (e.g., population mean) will be.
+A **sampling distribution** is the probability distribution of a **statistic** (mean, median, proportion, etc.) calculated from **many repeated samples** of the same population.
 
-## Formula for Standard Error of the Mean
+It shows **how the statistic varies** from sample to sample and forms the basis of **inferential statistics**.
 
-The standard error of the mean is given by the formula:
+- Helps estimate population parameters
+- Measures variability of statistics
+- Foundation for confidence intervals & hypothesis testing
+
+---
+
+# 2. Important Terminologies
+
+## 1. Statistic
+
+**Analogy:** Tasting one spoon of sambhar to guess the pot’s taste.  
+**Meaning:** A numerical value computed from a sample.  
+**Example:** Mean height of 50 students = 165 cm.
+
+---
+
+## 2. Parameter
+
+**Analogy:** The actual taste of the entire sambhar pot.  
+**Meaning:** A numerical value describing the full population.  
+**Example:** True average height of 5,000 students = 167 cm.
+
+---
+
+## 3. Sample
+
+**Analogy:** A spoon taken from the pot.  
+**Meaning:** A subset of the population.
+
+---
+
+## 4. Population
+
+**Analogy:** The entire pot of sambhar.  
+**Meaning:** The full group you want to study.
+
+---
+
+## 5. Sampling Distribution
+
+**Analogy:** If you take many spoons from different areas, each spoon tastes slightly different.  
+Plotting all these tastes gives a sampling distribution.
+
+**Meaning:** The distribution of a statistic when many samples are taken repeatedly.
+
+---
+
+## 6. Central Limit Theorem (CLT)
+
+**Analogy:** Even if the sambhar tastes uneven, large spoonfuls average out and taste normal.
+
+**Meaning:** For sufficiently large sample sizes (n ≥ 30), the distribution of sample means becomes **approximately normal** even if the population is not.
+
+---
+
+## 7. Standard Error (SE)
+
+**Analogy:** How much the taste changes from spoon to spoon.  
+**Meaning:** Standard deviation of the sampling distribution.
+
+---
+
+## 8. Bias
+
+**Analogy:** If you always take spoons from the oily top, your judgement is skewed.  
+**Meaning:** Systematic error that pushes your estimate away from truth.
+
+---
+
+## 9. Confidence Interval (CI)
+
+**Analogy:** “I am 95% sure the salt is within this range.”  
+**Meaning:** Range likely to include the true population parameter.
+
+---
+
+## 10. Sampling Methods
+
+- **Random Sampling:** Dip the spoon anywhere
+- **Stratified Sampling:** Take from every layer
+- **Systematic Sampling:** Every 5th spoon
+
+---
+
+## 11. Inferential Statistics
+
+**Analogy:** Tasting one spoon to judge the whole pot.  
+**Meaning:** Using sample data to make population conclusions.
+
+---
+
+## 12. Hypothesis Testing
+
+**Analogy:** Checking if the chef’s claim “sambhar is perfect” is correct.  
+**Meaning:** Testing assumptions about population using sample data.
+
+---
+
+# 3. Key Characteristics of Sampling Distributions
+
+## 1. Mean of Sampling Distribution
 
 $$
+\
+\mu_{\bar{x}} = \mu
+\
+$$
+
+Sample means center around the population mean.
+
+---
+
+## 2. Variance of Sampling Distribution
+
+$$
+\
+\text{Var}(\bar{X}) = \frac{\sigma^2}{n}
+\
+$$
+
+Larger sample size → smaller variance → more stable estimates.
+
+---
+
+![Population Distribution vs Sampling Distribution](./resources/population%20distribution%20vs%20sampling%20distribution.png)
+
+---
+
+# 4. Standard Error (SE)
+
+The **standard error** is the standard deviation of the sampling distribution of a statistic.
+
+### Formula
+
+$$
+\
 SE = \frac{\sigma}{\sqrt{n}}
+\
 $$
 
-Where:
-
-- \( \sigma \) = population standard deviation
-- \( n \) = sample size
-
-## Key Points:
-
-1. **Larger sample sizes** result in a **smaller standard error**, meaning more precise estimates of the population parameter.
-2. If the **population standard deviation** (\( \sigma \)) is known, this formula applies. If it's unknown, you can use the **sample standard deviation** (\( s \)) to estimate the standard error:
-
-   $$
-   SE = \frac{s}{\sqrt{n}}
-   $$
-
-3. **Central Limit Theorem (CLT)**: As the sample size increases, the sampling distribution of the sample mean will approach a normal distribution, regardless of the shape of the population distribution. This is especially true when the sample size is greater than 30.
-
-## Example:
-
-If you have a population with a standard deviation \( \sigma = 10 \) and you take a sample of size \( n = 25 \), the standard error would be:
+If σ is unknown:
 
 $$
-SE = \frac{10}{\sqrt{25}} = \frac{10}{5} = 2
+\
+SE = \frac{s}{\sqrt{n}}
+\
 $$
 
-So, the standard error of the sample mean is 2. This means that if you repeatedly take samples of size 25 from this population, the sample means will typically vary by about 2 units from the true population mean.
+### Key Points
 
-## Why is Standard Error Important?
+- Larger sample size → smaller SE
+- Used for confidence intervals
+- Used in hypothesis testing
+- Under CLT, SE helps form normal sampling distributions
 
-- **Precision of Estimates**: A smaller standard error means your sample mean is a more precise estimate of the population mean.
-- **Confidence Intervals**: Standard error is used to calculate confidence intervals for population parameters. Smaller standard errors lead to narrower intervals, which are more precise.
-- **Hypothesis Testing**: It helps in testing hypotheses by determining how much the sample mean deviates from the null hypothesis value.
+### Example
+
+Population SD $\sigma = 10$, sample size \( n = 25 \):
+
+$$
+\
+SE = \frac{10}{5} = 2
+\
+$$
+
+So sample means vary roughly ±2 around the true mean.
+
+---
+
+# 5. Importance of Standard Error
+
+- Measures precision of the sample mean
+- Smaller SE → more reliable estimates
+- Used in building confidence intervals
+- Used in hypothesis testing
+
+---
